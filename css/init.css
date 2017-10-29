@@ -1,0 +1,42 @@
+#logoDiv{
+    height: 50%;
+    width: 50%;
+    margin-bottom: -10%;
+    padding-top: 10%;
+    padding-left: 35%;
+    padding-bottom: 2%;
+}
+
+#logo{
+    width: inherit;
+    height: inherit;
+}
+
+#searchBox{
+    width: 90%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: inherit;
+}
+
+#searchBox[type=text]:focus {
+    box-shadow: #2f4f4f;
+}
+
+#localSearchBtn{
+    margin-left: 2%;
+    float: left;
+    padding: 1px;
+    height: 26px;
+    width:81px
+}
+
+#stemmer{
+    margin-left: 1%;
+}
+
+#relevanceFeedback{
+    margin-left: 1%;
+}
